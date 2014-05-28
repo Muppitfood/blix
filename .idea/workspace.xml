@@ -26,7 +26,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blix/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="18" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.6627155" vertical-offset="360" max-vertical-offset="1395">
+            <state line="39" column="10" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.2424569" vertical-offset="360" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -222,7 +222,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/blix/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="18" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.6627155" vertical-offset="360" max-vertical-offset="1395">
+        <state line="39" column="10" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.2424569" vertical-offset="360" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>
