@@ -1,7 +1,6 @@
 {% extends 'base.html' %} 
 {% block head_title %}{{ post.title }}{% endblock %}
-{% block title %}{{ post.title }}{% endblock %}
-
+{% block title %}{{ post.title }} by: {{ user.first_name }} {{ user.last_name }}{% endblock %}
 {% block content %}
     {{ post.text }}
 {% endblock %}

@@ -14,8 +14,10 @@ def index(request):
 
 
 def view_post(request, slug):
+    post = get_object_or_404(Post, slug=slug)
     return render_to_response('view_post.html', {
-        'post': get_object_or_404(Post, slug=slug)
+        'post': post,
+        'user': get_object_or_404(User, id=post.user_id)
     })
 
 

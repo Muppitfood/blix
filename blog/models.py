@@ -10,6 +10,7 @@ class Post(models.Model):
     text = models.TextField()
     pub_date = models.DateField(db_index=True, auto_now_add=True)
     category = models.ForeignKey('blog.Category')
+    user_id = models.IntegerField(db_index=True, default=0)
 
     def __unicode__(self):
         return self.title
