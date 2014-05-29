@@ -23,5 +23,11 @@ urlpatterns = patterns('',
         name='view_blog_category'
     ),
 
+    url(
+        r'^users/user/([0-9]+)/$',
+        'users.views.view_user',
+        name='view_user'
+    )
+
 
 )
