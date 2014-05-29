@@ -7,6 +7,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'blix.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
+    url(r'^admin/', include(admin.site.urls)),
 
     (r'^$', 'blog.views.index'),
 
@@ -17,10 +18,10 @@ urlpatterns = patterns('',
     ),
 
     url(
-        r'^blog/view/(?P<slug>[^\.]+).html',
+        r'^blog/category/(?P<slug>[^\.]+).html',
         'blog.views.view_category',
         name='view_blog_category'
     ),
 
-    url(r'^admin/', include(admin.site.urls)),
+
 )

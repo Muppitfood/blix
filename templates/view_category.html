@@ -1,5 +1,5 @@
 {% extends 'base.html' %} 
-{% block head_title %}Viewing category {{ category.title }}{% endblock %}
+{% block head_title %}Viewing category{{ category.title }}{% endblock %}
 {% block title %}{{ category.title }}{% endblock %}
 
 {% block content %}
@@ -10,6 +10,6 @@
             {% endfor %}
         </ul>
     {% else %}
-    <p>There are no posts.</p>
+        <p>There are no posts.</p>
     {% endif %}
 {% endblock %}
